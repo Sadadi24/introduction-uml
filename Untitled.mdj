@@ -5833,6 +5833,7 @@
 											"model": {
 												"$ref": "AAAAAAGO9twOJBKoj9I="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 237,
 											"top": 1070,
@@ -5870,7 +5871,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 237,
-											"top": 1085,
+											"top": 1072,
 											"width": 175,
 											"height": 13,
 											"text": "+éditeur",
@@ -5899,7 +5900,7 @@
 									"left": 232,
 									"top": 1065,
 									"width": 185,
-									"height": 38
+									"height": 25
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -5912,7 +5913,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 232,
-									"top": 1103,
+									"top": 1090,
 									"width": 185,
 									"height": 10
 								},
@@ -7165,7 +7166,7 @@
 							"top": 440,
 							"width": 60,
 							"height": 25,
-							"text": "1..n"
+							"text": "1..*"
 						},
 						{
 							"_type": "UMLTextView",
@@ -7566,7 +7567,7 @@
 							"top": 680,
 							"width": 32,
 							"height": 25,
-							"text": "1..n"
+							"text": "1..*"
 						},
 						{
 							"_type": "UMLTextView",
@@ -7580,6 +7581,54 @@
 							"width": 60,
 							"height": 25,
 							"text": "1..1"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGO/Yt5qz3mXAw=",
+							"_parent": {
+								"$ref": "AAAAAAGO9riifQcmQUQ="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "744:632;536:479"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGO/Yu0mD3q3Ow=",
+							"_parent": {
+								"$ref": "AAAAAAGO9riifQcmQUQ="
+							},
+							"font": "Arial;13;0",
+							"left": 752,
+							"top": 624,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGO/YvUlT3tm9I=",
+							"_parent": {
+								"$ref": "AAAAAAGO9riifQcmQUQ="
+							},
+							"font": "Arial;13;0",
+							"left": 736,
+							"top": 600,
+							"width": 60,
+							"height": 25,
+							"text": "1..*"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGO/Y2MIT3z610=",
+							"_parent": {
+								"$ref": "AAAAAAGO9riifQcmQUQ="
+							},
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 464,
+							"width": 60,
+							"height": 25,
+							"text": "0..*"
 						}
 					]
 				},
